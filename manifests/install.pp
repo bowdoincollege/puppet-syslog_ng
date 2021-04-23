@@ -13,7 +13,7 @@ class syslog_ng::install {
     purge   => true,
     force   => true,
   }
-  if $::lsbdistid == 'Debian' {
+  if $::osfamily == 'Debian' {
     file { '/etc/syslog-ng/scl.conf':
       source => 'puppet:///modules/syslog_ng/scl.conf.debian',
     }

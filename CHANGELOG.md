@@ -1,3 +1,11 @@
+## 2021-04-23 Release 0.2.2
+###Summary
+
+Minor change to allow installation without errors on Ubuntu 18.04 bionic
+
+### Feature
+- Support Ubuntu 18.04 (bionic)
+
 ## 2021-03-17 Release 0.2.1
 ###Summary
 
